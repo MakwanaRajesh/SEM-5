@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "_Layout"; // ✅ Moved to the top
+
+    ViewData["Title"] = "Dashboard";
+
+    var name = Context.Session.GetString("Name");
+    var email = Context.Session.GetString("Email");
+}
+
+@if (string.IsNullOrEmpty(name))
+{
+    <h2>Session is empty or user not logged in.</h2>
+}
+else
+{
+    <h2>Welcome @name</h2>
+}
+
+<div class="container mt-5">
+    <h4>Your email: @email</h4>
+</div>

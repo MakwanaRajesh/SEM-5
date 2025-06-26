@@ -1,0 +1,70 @@
+﻿@model Reastaurant.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout_RegIn.cshtml";
+}
+
+<div style="background-size: cover; background-position: center; min-height: 100vh; padding-top: 50px;">
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success text-center mt-3">@TempData["Message"]</div>
+    }
+
+    <form asp-action="Register" method="post" class="w-50 mx-auto mt-4">
+        <div class="card shadow-lg p-4 rounded-4 bg-secondary bg-opacity-75 text-white">
+            <h2 class="text-center mt-5">User  Sign Up</h2>
+            <div class="card-body">
+                @* <div class="form-group mb-3">
+                    <label asp-for="UserId" class="form-label">User  ID</label>
+                    <input asp-for="UserId" class="form-control" placeholder="Enter your User ID" required />
+                    <span asp-validation-for="UserId" class="text-danger"></span>
+                </div> *@
+
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="form-label">Full Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter your full name" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="form-label">Email Address</label>
+                    <input asp-for="Email" class="form-control" placeholder="Enter your email" required />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Create a password" required />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                    <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Re-enter your password" required />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Mobile" class="form-label">Mobile Number</label>
+                    <input asp-for="Mobile" class="form-control" placeholder="Enter your mobile number" required />
+                    <span asp-validation-for="Mobile" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                    <a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Cancel</a>
+                </div>
+
+            </div>
+            <div class="text-center mt-3">
+                <p>Already have an account? <a href="/Account/Login" class="text-decoration-none">Login here</a></p>
+            </div>
+        </div>
+    </form>
+
+    
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

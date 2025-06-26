@@ -1,0 +1,45 @@
+﻿@model Reastaurant.Models.UserLoginModel
+@{
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger text-center mt-2">
+        @TempData["ErrorMessage"]
+    </div>
+}
+@* style="max-width: 650px; height:550px" *@
+
+
+<div class="container mt-5" style="background-size: cover; background-position: center; max-width: 650px; height:550px">
+    <div class="card shadow-lg p-4 rounded-4 bg-secondary bg-opacity-75 text-white">
+        <h2 class="text-center mb-4">Restaurant Management - Sign In</h2>
+
+        <form asp-action="Login" method="post">
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email ID</label>
+                <input asp-for="Email" class="form-control" placeholder="Enter your Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label">Password</label>
+                <input asp-for="Password" class="form-control" placeholder="Enter your password" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <button asp-controller="Home" asp-action="DashBoard" type="submit" class="btn btn-primary w-100">Sign In</button>
+            <button asp-controller="Home" asp-action="Index" type="submit" class="btn btn-danger w-100">Cancel</button>
+        </form>
+        <div class="text-center mt-3">
+            <p>Doesn't Have Account?' <a href="/Account/Register" class="text-decoration-none">Register Here</a></p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

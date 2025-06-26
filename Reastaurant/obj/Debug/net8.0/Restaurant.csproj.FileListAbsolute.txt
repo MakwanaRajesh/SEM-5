@@ -1,0 +1,9 @@
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.csproj.AssemblyReference.cache
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.AssemblyInfoInputs.cache
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.AssemblyInfo.cs
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.csproj.CoreCompileInputs.cache
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.RazorAssemblyInfo.cache
+E:\OneDrive\Desktop\Reastaurant\obj\Debug\net8.0\Restaurant.RazorAssemblyInfo.cs
