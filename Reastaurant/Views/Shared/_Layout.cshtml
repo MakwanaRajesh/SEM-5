@@ -32,22 +32,23 @@
                             <a class="nav-link" asp-controller="Menu" asp-action="Menu">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#menu">Category</a>
+                            <a class="nav-link" asp-controller="Category" asp-action="Category">Category</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#orders">Order Detail</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" asp-controller="About" asp-action="Before_Login_About">About</a>
                         </li>
                     </ul>
 
                     <div class="d-flex gap-2">
+                        <a class="nav-link" asp-controller="" asp-action="">Cart</a>
                         <a asp-area="" asp-controller="Account" asp-action="Login">
-                        <button class="btn btn-outline-primary">Log In</button>
+                            <button class="btn btn-outline-primary">👤 Log In</button>
                         </a>
                         <a asp-area="" asp-controller="Account" asp-action="Register">
-                        <button class="btn btn-warning">Sign Up</button>
+                        <button class="btn btn-warning">👤 Sign Up</button>
                         </a>
                     </div>
                 </div>
@@ -81,7 +82,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h6 class="fw-bold mb-3">Quick Links</h6>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#menu" class="text-muted text-decoration-none">Menu</a></li>
+                        <li class="mb-2"><a asp-controller="Menu" asp-action="Menu" class="text-muted text-decoration-none">Menu</a></li>
                         <li class="mb-2"><a href="#orders" class="text-muted text-decoration-none">Orders</a></li>
                         <li class="mb-2"><a href="#about" class="text-muted text-decoration-none">About</a></li>
                     </ul>

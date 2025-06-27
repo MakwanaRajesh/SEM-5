@@ -2803,11 +2803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\OneDrive\\Desktop\\Reastaurant\\Reastaurant.csproj",
+      "projectUniqueName": "E:\\OneDrive\\Desktop\\SEM-5\\Reastaurant\\Reastaurant.csproj",
       "projectName": "Reastaurant",
-      "projectPath": "E:\\OneDrive\\Desktop\\Reastaurant\\Reastaurant.csproj",
+      "projectPath": "E:\\OneDrive\\Desktop\\SEM-5\\Reastaurant\\Reastaurant.csproj",
       "packagesPath": "C:\\Users\\karsh\\.nuget\\packages\\",
-      "outputPath": "E:\\OneDrive\\Desktop\\Reastaurant\\obj\\",
+      "outputPath": "E:\\OneDrive\\Desktop\\SEM-5\\Reastaurant\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

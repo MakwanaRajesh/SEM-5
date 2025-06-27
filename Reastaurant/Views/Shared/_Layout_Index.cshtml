@@ -28,7 +28,7 @@
                             <a class="nav-link" asp-controller="Menu" asp-action="Menu">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#menu">Category</a>
+                            <a class="nav-link" asp-controller="Category" asp-action="Category">Category</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#orders">Order Detail</a>
@@ -39,6 +39,15 @@
                     </ul>
 
                     <div class="d-flex gap-2">
+                        <a asp-controller="Cart" asp-action="AllCarts" class="btn btn-outline-primary text-dark position-relative text-decoration-none">
+                            🛒 Cart
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                0
+                                <span class="visually-hidden">items in cart</span>
+                            </span>
+                        </a>
+
+
                         <a asp-area="" asp-controller="Account" asp-action="Login">
                             <button class="btn btn-outline-primary">Log In</button>
                         </a>

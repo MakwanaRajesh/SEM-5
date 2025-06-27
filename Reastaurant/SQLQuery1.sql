@@ -16,9 +16,6 @@ CREATE TABLE NewUsers (
 
 
 
-
-
-
 -----------  Stored Procedure for New User Sign In
 
 CREATE OR ALTER PROCEDURE PR_NewUsers_SignUp
@@ -79,65 +76,164 @@ SELECT * FROM NewUsers ORDER BY UserId DESC;
 
 --------- Menu Table ------------------
 
-
 CREATE TABLE Menu (
     MenuId INT PRIMARY KEY IDENTITY(1,1),
-    ItemName NVARCHAR(100) NOT NULL,
+    DishName NVARCHAR(100),
     Description NVARCHAR(255),
+    Price DECIMAL(10,2),
+    ImageUrl NVARCHAR(255),
+    Category NVARCHAR(50),
+    IsAvailable BIT
+);
+
+
+
+---------------- Category Table --------------
+
+CREATE TABLE Category (
+    CategoryId INT PRIMARY KEY IDENTITY(1,1),
+    RestaurantName NVARCHAR(100) NOT NULL,
+    ImageUrl NVARCHAR(255),
+    Rating DECIMAL(3, 2),
+    DeliveryTime NVARCHAR(50),
+    FoodTypes NVARCHAR(200),
+    Location NVARCHAR(100),
+    OfferText NVARCHAR(100)
+);
+
+
+-------------- Cart Table -------------
+
+CREATE TABLE Carts (
+    CartId INT PRIMARY KEY IDENTITY(1,1),
+    MenuItemId INT NOT NULL,
+    ItemName NVARCHAR(100) NOT NULL,
+    ImageUrl NVARCHAR(255),
     Price DECIMAL(10, 2) NOT NULL,
-    IsAvailable BIT DEFAULT 1
+    Quantity INT NOT NULL,
+    FOREIGN KEY (MenuItemId) REFERENCES Menu(MenuId)
 );
 
 
 
 
 
-CREATE PROCEDURE AddMenuItem
-    @ItemName NVARCHAR(100),
-    @Description NVARCHAR(255),
-    @Price DECIMAL(10, 2),
-    @IsAvailable BIT
-AS
-BEGIN
-    INSERT INTO Menu (ItemName, Description, Price, IsAvailable)
-    VALUES (@ItemName, @Description, @Price, @IsAvailable);
-END;
-
-
-
-CREATE PROCEDURE UpdateMenuItem
-    @MenuId INT,
-    @ItemName NVARCHAR(100),
-    @Description NVARCHAR(255),
-    @Price DECIMAL(10, 2),
-    @IsAvailable BIT
-AS
-BEGIN
-    UPDATE Menu
-    SET ItemName = @ItemName,
-        Description = @Description,
-        Price = @Price,
-        IsAvailable = @IsAvailable
-    WHERE MenuId = @MenuId;
-END;
-
-
-
-CREATE PROCEDURE DeleteMenuItem
-    @MenuId INT
-AS
-BEGIN
-    DELETE FROM Menu WHERE MenuId = @MenuId;
-END;
 
 
 
 
-CREATE PROCEDURE GetAllMenuItems
-AS
-BEGIN
-    SELECT * FROM Menu;
-END;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--CREATE PROCEDURE AddMenuItem
+--    @ItemName NVARCHAR(100),
+--    @Description NVARCHAR(255),
+--    @Price DECIMAL(10, 2),
+--    @IsAvailable BIT
+--AS
+--BEGIN
+--    INSERT INTO Menu (ItemName, Description, Price, IsAvailable)
+--    VALUES (@ItemName, @Description, @Price, @IsAvailable);
+--END;
+
+
+
+--CREATE PROCEDURE UpdateMenuItem
+--    @MenuId INT,
+--    @ItemName NVARCHAR(100),
+--    @Description NVARCHAR(255),
+--    @Price DECIMAL(10, 2),
+--    @IsAvailable BIT
+--AS
+--BEGIN
+--    UPDATE Menu
+--    SET ItemName = @ItemName,
+--        Description = @Description,
+--        Price = @Price,
+--        IsAvailable = @IsAvailable
+--    WHERE MenuId = @MenuId;
+--END;
+
+
+
+--CREATE PROCEDURE DeleteMenuItem
+--    @MenuId INT
+--AS
+--BEGIN
+--    DELETE FROM Menu WHERE MenuId = @MenuId;
+--END;
+
+
+
+
+--CREATE PROCEDURE GetAllMenuItems
+--AS
+--BEGIN
+--    SELECT * FROM Menu;
+--END;
 
 
 

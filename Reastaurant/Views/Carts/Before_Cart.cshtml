@@ -1,0 +1,55 @@
+﻿@model List<Reastaurant.Models.Carts>
+@{
+    ViewData["Title"] = "Your Cart";
+    decimal grandTotal = Model.Sum(item => item.Total);
+}
+
+<div class="container py-5">
+    <h2 class="mb-4">🛒 Your Cart</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning">Your cart is empty.</div>
+    }
+    else
+    {
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Dish</th>
+                    <th>Name</th>
+                    <th class="text-center">Qty</th>
+                    <th class="text-end">Price</th>
+                    <th class="text-end">Total</th>
+                    <th class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td width="120">
+                            <img src="@item.ImageUrl" class="img-fluid rounded" style="height: 70px; object-fit: cover;" />
+                        </td>
+                        <td>@item.ItemName</td>
+                        <td class="text-center">@item.Quantity</td>
+                        <td class="text-end">₹@item.Price</td>
+                        <td class="text-end fw-bold">₹@item.Total</td>
+                        <td class="text-center">
+                            <a asp-action="Remove" asp-route-id="@item.MenuItemId" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i> Remove
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot class="table-light">
+                <tr>
+                    <td colspan="4" class="text-end fw-bold">Grand Total</td>
+                    <td class="text-end fw-bold text-success">₹@grandTotal</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    }
+</div>

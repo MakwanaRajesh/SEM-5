@@ -1,190 +1,34 @@
-﻿@removeTagHelper "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers"
-
-@model Reastaurant.Models.Category
-
+﻿@model List<Reastaurant.Models.Category>
 @{
-    ViewData["Title"] = Model.CategoryName + " - Menu";
+    ViewData["Title"] = "Menu";
+}
+@{
+    Layout = "_Layout"; // ✅ Moved to the top
+
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="container-fluid">
-    <!-- Category Header -->
-    <div class="row bg-primary bg-opacity-10 py-5">
-        <div class="col-12">
-            <div class="container">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Home</a></li>
-                        <li class="breadcrumb-item"><a href="/Menu" class="text-decoration-none">Menu</a></li>
-                        <li class="breadcrumb-item active">@Model.CategoryName</li>
-                    </ol>
-                </nav>
+@* <main>
 
-                <div class="row align-items-center">
-                    <div class="col-md-8">
-                        <h1 class="display-5 fw-bold mb-3">@Model.CategoryName</h1>
-                        <p class="lead text-muted mb-3">@Model.Description</p>
-                        <div class="d-flex gap-3">
-                            <span class="badge bg-warning fs-6">@Model.CuisineType</span>
-                            <span class="badge bg-info fs-6">@Model.TotalItems Items</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-end">
-                        <img src="@(Model.ImageURL ?? "/placeholder.svg?height=200&width=300&text=" + Uri.EscapeDataString(Model.CategoryName))"
-                             class="img-fluid rounded shadow" alt="@Model.CategoryName" style="max-height: 200px;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container py-4">
-        <!-- Filters and Sorting -->
-        <div class="row mb-4">
-            <div class="col-md-6">
-                <label class="form-label mb-0">Sort by:</label>
-                <select class="form-select form-select-sm" style="width: auto;">
-                    <option selected disabled>Select</option>
-                    <option>Name</option>
-                    <option>Price: Low to High</option>
-                    <option>Price: High to Low</option>
-                    <option>Most Popular</option>
-                    <option>Preparation Time</option>
-                </select>
-            </div>
-            <div class="col-md-6 text-end">
-                <div class="btn-group" role="group">
-                    <input type="radio" class="btn-check" name="filterBy" id="all" checked>
-                    <label class="btn btn-outline-primary btn-sm" for="all">All</label>
-
-                    <input type="radio" class="btn-check" name="filterBy" id="veg">
-                    <label class="btn btn-outline-success btn-sm" for="veg">
-                        <i class="bi bi-circle-fill"></i> Veg
-                    </label>
-
-                    <input type="radio" class="btn-check" name="filterBy" id="vegan">
-                    <label class="btn btn-outline-info btn-sm" for="vegan">
-                        <i class="bi bi-circle-fill"></i> Vegan
-                    </label>
-
-                    <input type="radio" class="btn-check" name="filterBy" id="spicy">
-                    <label class="btn btn-outline-danger btn-sm" for="spicy">
-                        <i class="bi bi-fire"></i> Spicy
-                    </label>
-                </div>
-            </div>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Browse by Category</h1>
+            <p class="text-muted">Find your favorite type of food</p>
         </div>
 
-        <!-- Menu Items Grid -->
-        <div class="row g-4">
-            @foreach (var item in Model.MenuItems)
+        <div class="row">
+            @foreach (var category in Model.Where(c => c.IsActive))
             {
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="position-relative">
-                            <img src="@(item.ImageURL ?? "/placeholder.svg?height=250&width=400&text=" + Uri.EscapeDataString(item.ItemName))"
-                                 class="card-img-top" alt="@item.ItemName" style="height: 200px; object-fit: cover;">
-
-                            <!-- Badges -->
-                            <div class="position-absolute top-0 end-0 m-2">
-                                @if (item.IsVegetarian)
-                                {
-                                    <span class="badge bg-success me-1"><i class="bi bi-circle-fill"></i></span>
-                                }
-                                @if (item.IsVegan)
-                                {
-                                    <span class="badge bg-info me-1"><i class="bi bi-circle-fill"></i></span>
-                                }
-                                @if (item.IsSpicy)
-                                {
-                                    <span class="badge bg-danger me-1"><i class="bi bi-fire"></i></span>
-                                }
-                                @if (item.IsFeatured)
-                                {
-                                    <span class="badge bg-warning"><i class="bi bi-star-fill"></i></span>
-                                }
-                            </div>
-
-                            @if (!item.IsAvailable)
-                            {
-                                <div class="position-absolute top-50 start-50 translate-middle">
-                                    <span class="badge bg-dark fs-6">Out of Stock</span>
-                                </div>
-                            }
-                        </div>
-
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <a href="/Menu/Category/@category.CategoryId" class="card text-white text-decoration-none bg-dark h-100">
+                        <img src="@category.ImageUrl" class="card-img-top" style="height: 200px; object-fit: cover;" />
                         <div class="card-body">
-                            <h5 class="card-title">@item.ItemName</h5>
-                            <p class="card-text text-muted small">@item.Description</p>
-
-                            <div class="row small text-muted mb-3">
-                                <div class="col-6">
-                                    <i class="bi bi-clock"></i> @item.PreparationTime min
-                                </div>
-                                <div class="col-6">
-                                    @if (item.Calories > 0)
-                                    {
-                                        <i class="bi bi-lightning"></i> 
-                                        @item.Calories                                                                    }
-                                </div>
-                                @if (!string.IsNullOrEmpty(item.SpiceLevel))
-                                {
-                                    <div class="col-12 mt-1">
-                                        <i class="bi bi-thermometer-half"></i> Spice: @item.SpiceLevel
-                                    </div>
-                                }
-                            </div>
-
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="h5 text-warning mb-0">₹@item.Price</span>
-                                <div class="btn-group">
-                                    <a href="/Menu/Details/@item.MenuItemID" class="btn btn-outline-primary btn-sm">
-                                        <i class="bi bi-eye"></i>
-                                    </a>
-                                    @if (item.IsAvailable)
-                                    {
-                                        <button class="btn btn-warning btn-sm">
-                                            <i class="bi bi-cart-plus"></i> Add
-                                        </button>
-                                    }
-                                    else
-                                    {
-                                        <button class="btn btn-secondary btn-sm" disabled>
-                                            <i class="bi bi-x-circle"></i> N/A
-                                        </button>
-                                    }
-                                </div>
-                            </div>
+                            <h5 class="card-title">@category.CategoryName</h5>
+                            <p class="card-text small">@category.Description</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             }
         </div>
-
-        <!-- Pagination -->
-        @if (Model.TotalPages > 1)
-        {
-            <div class="row mt-5">
-                <div class="col-12">
-                    <nav aria-label="Menu pagination">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
-                                <a class="page-link" href="#">Previous</a>
-                            </li>
-
-                            @for (int i = 1; i <= Model.TotalPages; i++)
-                            {
-                                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
-                                    <a class="page-link" href="#">@i</a>
-                                </li>
-                            }
-
-                            <li class="page-item @(Model.CurrentPage == Model.TotalPages ? "disabled" : "")">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        }
     </div>
-</div>
+</main> *@

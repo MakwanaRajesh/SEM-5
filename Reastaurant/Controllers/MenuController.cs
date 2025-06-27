@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Reastaurant.Models;
+using Microsoft.Data.SqlClient;
 using Reastaurant.Models.ViewModels;
 
 namespace Reastaurant.Controllers
@@ -10,14 +12,7 @@ namespace Reastaurant.Controllers
     {
         public IActionResult Menu()
         {
-            var menuItems = _context.MenuItems.ToList(); // Example
-            if (menuItems == null)
-            {
-                // Optional: handle null from DB
-                return View(new List<MenuItem>());
-            }
-            return View(menuItems);
+            return View();
         }
-
     }
 }

@@ -1,172 +1,157 @@
-﻿@removeTagHelper "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers"
-@using Reastaurant.Models.ViewModels
-@model MenuViewModel
+﻿@model List<Reastaurant.Models.MenuItem>
 @{
-    ViewData["Title"] = "Menu - RestaurantPro";
+    ViewData["Title"] = "Menu";
+}
+@{
+    Layout = "_Layout"; // ✅ Moved to the top
+
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="container-fluid">
-    <!-- Hero Section -->
-    <div class="row bg-warning bg-opacity-10 py-5">
-        <div class="col-12 text-center">
-            <h1 class="display-4 fw-bold text-dark mb-3">Our Delicious Menu</h1>
-            <p class="lead text-muted">Explore authentic flavors from around the world</p>
-        </div>
-    </div>
 
-    <!-- Filter Section -->
-    <div class="row bg-light py-4">
-        <div class="col-12">
-            <form method="get" class="row g-3 align-items-end">
-                <div class="col-md-3">
-                    <label class="form-label">Search Dishes</label>
-                    <div class="input-group">
-                        <span class="input-group-text"><i class="bi bi-search"></i></span>
-                        <input type="text" name="search" class="form-control" placeholder="Search menu items..." value="@Model.SearchTerm">
-                    </div>
-                </div>
+<main>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-5 display-5 fw-bold">Pizza</h3>
+            <div class="row g-4">
 
-                <div class="col-md-2">
-                    <label class="form-label">Cuisine Type</label>
-                    <select name="cuisine" class="form-select">
-                        <option value="">All Cuisines</option>
-                        @foreach (var cuisine in new[] { "Gujarati", "Punjabi", "Chinese", "South Indian", "North Indian", "Continental", "Italian", "Mexican" })
-                        {
-                            <option value="@cuisine" @(Model.SelectedCuisine == cuisine ? "selected" : "")>@cuisine</option>
-                        }
-                    </select>
-                </div>
-
-                <div class="col-md-2">
-                    <label class="form-label">Price Range</label>
-                    <select name="priceRange" class="form-select">
-                        <option value="">All Prices</option>
-                        <option value="0-200" @(Model.PriceRange == "0-200" ? "selected" : "")>₹0 - ₹200</option>
-                        <option value="200-500" @(Model.PriceRange == "200-500" ? "selected" : "")>₹200 - ₹500</option>
-                        <option value="500-1000" @(Model.PriceRange == "500-1000" ? "selected" : "")>₹500 - ₹1000</option>
-                        <option value="1000+" @(Model.PriceRange == "1000+" ? "selected" : "")>₹1000+</option>
-                    </select>
-                </div>
-
-                <div class="col-md-2">
-                    <label class="form-label">Spice Level</label>
-                    <select name="spiceLevel" class="form-select">
-                        <option value="">All Levels</option>
-                        @foreach (var level in new[] { "Mild", "Medium", "Hot", "Extra Hot" })
-                        {
-                            <option value="@level" @(Model.SpiceLevel == level ? "selected" : "")>@level</option>
-                        }
-                    </select>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="vegetarian" value="true" @(Model.ShowVegetarianOnly ? "checked" : "")>
-                        <label class="form-check-label">
-                            <i class="bi bi-circle-fill text-success"></i> Vegetarian
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="vegan" value="true" @(Model.ShowVeganOnly ? "checked" : "")>
-                        <label class="form-check-label">
-                            <i class="bi bi-circle-fill text-info"></i> Vegan
-                        </label>
-                    </div>
-                    <button type="submit" class="btn btn-warning ms-2">
-                        <i class="bi bi-funnel"></i> Filter
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <!-- Featured Items -->
-    @if (Model.FeaturedItems.Any())
-    {
-        <div class="row py-5">
-            <div class="col-12 text-center mb-4">
-                <h2><i class="bi bi-star-fill text-warning"></i> Featured Dishes</h2>
-            </div>
-            @foreach (var item in Model.FeaturedItems.Take(4))
-            {
+                <!-- Pizza 1 -->
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="@(item.ImageURL ?? "/placeholder.svg?height=200&width=300&text=" + Uri.EscapeDataString(item.ItemName))" class="card-img-top" alt="@item.ItemName" style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5 class="card-title">@item.ItemName</h5>
-                            <p class="card-text text-muted small">@item.Description</p>
-                            <div class="d-flex justify-content-between">
-                                <span class="text-warning fw-bold">₹@item.Price</span>
-                                <small><i class="bi bi-clock"></i> @item.PreparationTime min</small>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent d-flex gap-2">
-                            <a href="/Menu/Details/@item.MenuItemID" class="btn btn-outline-warning btn-sm w-50">
-                                <i class="bi bi-eye"></i> View
-                            </a>
-                            <button class="btn btn-warning btn-sm w-50">
-                                <i class="bi bi-cart-plus"></i> Add
-                            </button>
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Margherita_Pizza.jpg" class="card-img-top" alt="Margherita">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Margherita Pizza</h5>
+                            <p class="card-text text-muted">Classic pizza with tomatoes, mozzarella, and basil.</p>
+                            <h6 class="text-success fw-bold mb-3">₹299</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="1" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-            }
-        </div>
-    }
 
-    <!-- Categories Section -->
-    <div class="row py-5 bg-light">
-        <div class="col-12 text-center mb-5">
-            <h2><i class="bi bi-grid-3x3-gap text-primary"></i> Browse by Cuisine</h2>
-        </div>
-        @foreach (var category in Model.Categories.Where(c => c.IsActive).OrderBy(c => c.SortOrder))
-        {
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <a href="/Menu/Category/@category.CategoryID" class="card h-100 text-decoration-none text-white bg-dark">
-                    <img src="@(category.ImageURL ?? "/placeholder.svg?height=200&width=300&text=" + Uri.EscapeDataString(category.CategoryName))" class="card-img-top" alt="@category.CategoryName" style="height: 180px; object-fit: cover;">
-                    <div class="card-body bg-opacity-75">
-                        <h5 class="card-title">@category.CategoryName</h5>
-                        <p class="card-text small">@category.Description</p>
-                        <small class="text-warning">@category.CuisineType</small>
-                    </div>
-                </a>
-            </div>
-        }
-    </div>
-
-    <!-- Popular Items -->
-    @if (Model.PopularItems.Any())
-    {
-        <div class="row py-5">
-            <div class="col-12 text-center mb-4">
-                <h2><i class="bi bi-heart-fill text-danger"></i> Most Popular</h2>
-            </div>
-            @foreach (var item in Model.PopularItems.Take(6))
-            {
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="row g-0 h-100">
-                            <div class="col-4">
-                                <img src="@(item.ImageURL ?? "/placeholder.svg?height=120&width=120&text=" + Uri.EscapeDataString(item.ItemName))" class="img-fluid rounded-start h-100" alt="@item.ItemName" style="object-fit: cover;">
-                            </div>
-                            <div class="col-8">
-                                <div class="card-body p-3 d-flex flex-column justify-content-between h-100">
-                                    <div>
-                                        <h6 class="card-title mb-1">@item.ItemName</h6>
-                                        <p class="card-text small text-muted mb-2">@item.Description?.Substring(0, Math.Min(50, item.Description.Length))...</p>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span class="fw-bold text-warning">₹@item.Price</span>
-                                        <button class="btn btn-warning btn-sm">
-                                            <i class="bi bi-plus"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                <!-- Pizza 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Veggie_Pizza.jpg" class="card-img-top" alt="Pepperoni Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Pepperoni Pizza</h5>
+                            <p class="card-text text-muted">Loaded with spicy pepperoni and cheese.</p>
+                            <h6 class="text-success fw-bold mb-3">₹349</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="2" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-            }
+
+                <!-- Pizza 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Pepperoni_Pizza.jpg" class="card-img-top" alt="Veggie Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Veggie Pizza</h5>
+                            <p class="card-text text-muted">Mushrooms, olives, onions & bell peppers.</p>
+                            <h6 class="text-success fw-bold mb-3">₹279</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="3" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Paneer_Tikka_Pizza.jpg" class="card-img-top" alt="Paneer Tikka Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Paneer Tikka Pizza</h5>
+                            <p class="card-text text-muted">Spicy Indian paneer on cheesy base.</p>
+                            <h6 class="text-success fw-bold mb-3">₹329</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="4" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 5 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Cheese_Burst_Pizza.jpg" class="card-img-top" alt="Cheese Burst Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Cheese Burst Pizza</h5>
+                            <p class="card-text text-muted">Oozing cheese filled in every bite.</p>
+                            <h6 class="text-success fw-bold mb-3">₹389</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="5" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 6 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Cheeseburger.jpg" class="card-img-top" alt="BBQ Chicken Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Cheese burger</h5>
+                            <p class="card-text text-muted">Grilled chicken with smoky BBQ sauce.</p>
+                            <h6 class="text-success fw-bold mb-3">₹379</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="6" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 7 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Deluxe_Veggie_Pizza.jpg" class="card-img-top" alt="Farmhouse Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Farmhouse Pizza</h5>
+                            <p class="card-text text-muted">Loaded with onion, capsicum, tomato & mushrooms.</p>
+                            <h6 class="text-success fw-bold mb-3">₹309</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="7" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 8 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/Deluxe_Veggie_Pizza.jpg" class="card-img-top" alt="Deluxe Veggie Pizza">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Deluxe Veggie Pizza</h5>
+                            <p class="card-text text-muted">Black olives, corn, jalapenos & cheese.</p>
+                            <h6 class="text-success fw-bold mb-3">₹339</h6>
+                            <form asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="MenuItemId" value="8" />
+                                <input type="hidden" name="Quantity" value="1" />
+                                <button type="submit" class="btn btn-warning w-100">Add to Basket</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    }
-</div>
+    </section>
+</main>
