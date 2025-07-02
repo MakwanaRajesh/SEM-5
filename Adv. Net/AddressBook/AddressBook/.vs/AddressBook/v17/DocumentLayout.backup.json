@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\city\\citylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\city\\citylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\country\\countrylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\country\\countrylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\city\\countall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\city\\countall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|d:\\sem 5 pro\\adv. net\\addressbook\\addressbook\\views\\city\\addcity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C15863F8-89F5-4874-B6D9-C182AD719EBC}|AddressBook.csproj|solutionrelative:views\\city\\addcity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:53:05.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T03:50:08.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T12:06:09.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:04:57.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CountAll.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\City\\CountAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\CountAll.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\City\\CountAll.cshtml",
+              "RelativeToolTip": "Views\\City\\CountAll.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T13:35:09.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CityModel.cs",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Models\\CityModel.cs",
+              "RelativeDocumentMoniker": "Models\\CityModel.cs",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Models\\CityModel.cs",
+              "RelativeToolTip": "Models\\CityModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:55:16.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T13:47:52.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAwwA8BAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T12:03:04.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CountryList.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Country\\CountryList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\CountryList.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\Country\\CountryList.cshtml",
+              "RelativeToolTip": "Views\\Country\\CountryList.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T11:03:15.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T02:34:06.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CityController.cs",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\CityController.cs",
+              "RelativeToolTip": "Controllers\\CityController.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAwwN4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:54:40.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwE0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T03:24:44.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StateController.cs",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Controllers\\StateController.cs",
+              "RelativeToolTip": "Controllers\\StateController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAADwv58AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T03:18:53.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CityList.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\City\\CityList.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\CityList.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\City\\CityList.cshtml",
+              "RelativeToolTip": "Views\\City\\CityList.cshtml",
+              "ViewState": "AgIAAEEAAAAAMjMzMzMLwFQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T07:06:43.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddCity.cshtml",
+              "DocumentMoniker": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\City\\AddCity.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\AddCity.cshtml",
+              "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\AddressBook\\AddressBook\\Views\\City\\AddCity.cshtml",
+              "RelativeToolTip": "Views\\City\\AddCity.cshtml",
+              "ViewState": "AgIAACsAAAAAMzMzMzMbwDMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T07:05:48.561Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

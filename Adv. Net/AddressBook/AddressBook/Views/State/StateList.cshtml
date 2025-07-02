@@ -1,0 +1,93 @@
+﻿@model DataTable
+@using System.Data
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteConfirmationLabel">Confirm Deletion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete this state? This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <a href="#" id="confirmDeleteBtn" class="btn btn-danger">Yes, Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Alert Messages -->
+<div class="container mt-3">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div id="successAlert" class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="bi bi-check-circle"></i> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div id="errorAlert" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="bi bi-exclamation-triangle"></i> @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+</div>
+
+<div class="pagetitle">
+    <h1>State Table</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Pages</li>
+            <li class="breadcrumb-item active">State</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <h5 class="col card-title">State List</h5>
+            <div class="col d-flex justify-content-end my-3">
+                <a asp-controller="State" asp-action="AddState" class="btn btn-outline-primary my-2">Add</a>
+            </div>
+        </div>
+
+        <table class="table table-striped datatable">
+            <thead>
+                <tr>
+                    <th scope="col">State Id</th>
+                    <th scope="col">State Name</th>
+                    <th scope="col">Country Name</th>
+                    <th scope="col">State Code</th>
+                    <th scope="col">User Name</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (DataRow row in Model.Rows)
+                {
+                    <tr>
+                        <td>@row["StateId"]</td>
+                        <td>@row["StateName"]</td>
+                        <td>@row["CountryName"]</td>
+                        <td>@row["StateCode"]</td>
+                        <td>@row["UserName"]</td>
+                        <td>
+                            <a asp-controller="State" asp-action="AddState" asp-route-StateId="@row["StateId"]" class="btn btn-outline-info btn-xs me-3">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+                            <a asp-controller="State" asp-action="StateDelete" asp-route-StateId="@row["StateId"]" class="btn btn-outline-danger btn-xs" id="itemDelete">
+                                <i class="bi bi-x"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+</div>
+</div>

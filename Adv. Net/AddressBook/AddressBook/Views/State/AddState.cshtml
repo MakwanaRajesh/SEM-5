@@ -1,0 +1,52 @@
+﻿@model AddressBook.Models.StateModel
+
+<div class="pagetitle">
+    <h1>State Add</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="State" asp-action="StateList">State</a></li>
+            <li class="breadcrumb-item active">State Add</li>
+        </ol>
+    </nav>
+</div>
+
+<form asp-controller="State" asp-action="StateSave" method="post">
+    <input type="hidden" asp-for="StateId"/>
+    <div class="col-12">
+        <label for="StateName" class="form-label fw-bold"><span class="text-danger">*</span>State Name</label>
+        <input asp-for="StateName" type="text" class="form-control" id="StateName" placeholder="Enter State Name">
+        <span asp-validation-for="StateName" class="text-danger"></span>
+    </div>
+    <div class="col-12">
+        <label asp-for="CountryId" class="form-label fw-bold"><span class="text-danger">*</span>Country Name</label>
+        <select class="form-control col" asp-for="CountryId">
+            <option value="">Select Country</option>
+            @foreach (var country in ViewBag.CountryList)
+            {
+                <option value="@country.CountryId">@country.CountryName</option>
+            }
+        </select>
+        <span asp-validation-for="CountryId" class="text-danger"></span>
+    </div>
+    
+    <div class="col-12">
+        <label asp-for="StateCode" class="form-label fw-bold"><span class="text-danger">*</span>State Code</label>
+        <input asp-for="StateCode" type="text" class="form-control" id="StateCode" placeholder="Enter State Code">
+        <span asp-validation-for="StateCode" class="text-danger"></span>
+    </div>
+    <div class="col-12 mb-3">
+        <label asp-for="UserId" class="form-label fw-bold"><span class="text-danger">*</span>User Name</label>
+        <select class="form-control col" asp-for="UserId">
+            <option value="">Select User</option>
+            @foreach (var user in ViewBag.UserList)
+            {
+                <option value="@user.UserId">@user.UserName</option>
+            }
+        </select>
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-sm btn-success">Save</button>
+        <a asp-controller="State" asp-action="StateList" class="btn btn-sm btn-primary">Cancel</a>
+    </div>
+</form>

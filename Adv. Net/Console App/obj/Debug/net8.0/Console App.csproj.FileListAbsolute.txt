@@ -1,0 +1,14 @@
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\Console App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\Console App.AssemblyInfoInputs.cache
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\Console App.AssemblyInfo.cs
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\Console App.csproj.CoreCompileInputs.cache
+D:\Sem 5 pro\Adv. Net\Console App\bin\Debug\net8.0\Console App.exe
+D:\Sem 5 pro\Adv. Net\Console App\bin\Debug\net8.0\Console App.deps.json
+D:\Sem 5 pro\Adv. Net\Console App\bin\Debug\net8.0\Console App.runtimeconfig.json
+D:\Sem 5 pro\Adv. Net\Console App\bin\Debug\net8.0\Console App.dll
+D:\Sem 5 pro\Adv. Net\Console App\bin\Debug\net8.0\Console App.pdb
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\Console App.dll
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\refint\Console App.dll
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\Console App.pdb
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\Console App.genruntimeconfig.cache
+D:\Sem 5 pro\Adv. Net\Console App\obj\Debug\net8.0\ref\Console App.dll

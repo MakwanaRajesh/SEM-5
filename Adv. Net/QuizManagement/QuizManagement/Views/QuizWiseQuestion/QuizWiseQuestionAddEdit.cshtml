@@ -1,0 +1,69 @@
+﻿@model QuizManagement.Models.QuizWiseQuestionModel
+
+<main id="main" class="main">
+    <div class="container">
+        <div class="pagetitle">
+            <h1>Quiz Add</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item">QuizWiseQestion</li>
+                    <li class="breadcrumb-item active"><a asp-controller="QuizWiseQuestion" asp-action="QuizWiseQuestionEdit">QuizList</a></li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Add New QuizWise Question </h5>
+
+                <form class="row g-3" asp-controller="QuizWiseQuestion" asp-action="QuizWiseQuestionAddEdit" method="post">
+                    @* <input hidden asp-for="QuizWiseQuestionsID" /> *@
+
+                    <div class="mb-3">
+                        <span class="text-danger">*</span>
+                        <label class="form-label">Quiz</label>
+                        <select asp-for="QuizID" class="form-select">
+                            <option value=""> Select Quiz </option>
+                            @foreach (var level in ViewBag.Quiz)
+                            {
+                                <option value="@level.QuizID">@level.QuizName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="QuizID" class="text text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <span class="text-danger">*</span>
+                        <label class="form-label">Question</label>
+                        <select asp-for="QuestionID" class="form-select">
+                            <option value=""> Select Question </option>
+                            @foreach (var level in ViewBag.Question)
+                            {
+                                <option value="@level.QuestionID">@level.QuestionText</option>
+                            }
+                        </select>
+                        <span asp-validation-for="QuestionID" class="text text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <span class="text-danger">*</span>
+                        <label class="form-label">User Name</label>
+                        <select asp-for="UserID" class="form-select">
+                            <option value=""> Select User Name </option>
+                            @foreach (var level in ViewBag.User)
+                            {
+                                <option value="@level.UserID">@level.UserName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="UserID" class="text text-danger"></span>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <a class="btn btn-secondary" asp-controller="QuizWiseQuestion" asp-action="QuizWiseQuestionList">Cancel</a>
+                    </div>
+                </form><!-- Vertical Form -->
+            </div>
+        </div>
+    </div>
+</main>

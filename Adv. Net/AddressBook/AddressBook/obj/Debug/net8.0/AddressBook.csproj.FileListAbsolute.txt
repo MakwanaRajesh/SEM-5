@@ -1,0 +1,121 @@
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\appsettings.Development.json
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\appsettings.json
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.staticwebassets.runtime.json
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.staticwebassets.endpoints.json
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.exe
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.deps.json
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.runtimeconfig.json
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.dll
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.pdb
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.AssemblyInfoInputs.cache
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.AssemblyInfo.cs
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.csproj.CoreCompileInputs.cache
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.MvcApplicationPartsAssemblyInfo.cache
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.RazorAssemblyInfo.cache
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.RazorAssemblyInfo.cs
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\scopedcss\bundle\AddressBook.styles.css
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\scopedcss\projectbundle\AddressBook.bundle.scp.css
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.build.json
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.development.json
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.AddressBook.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.AddressBook.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.build.AddressBook.props
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AddressBook.props
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AddressBook.props
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.dll
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\refint\AddressBook.dll
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.pdb
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.genruntimeconfig.cache
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\ref\AddressBook.dll
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.csproj.AssemblyReference.cache
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressB.06280804.Up2Date
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\appsettings.Development.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\appsettings.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.staticwebassets.endpoints.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.staticwebassets.runtime.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.exe
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.deps.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.runtimeconfig.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\AddressBook.pdb
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.csproj.AssemblyReference.cache
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.AssemblyInfoInputs.cache
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.AssemblyInfo.cs
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.csproj.CoreCompileInputs.cache
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.MvcApplicationPartsAssemblyInfo.cache
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.RazorAssemblyInfo.cache
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.RazorAssemblyInfo.cs
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\scopedcss\bundle\AddressBook.styles.css
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\scopedcss\projectbundle\AddressBook.bundle.scp.css
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.build.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.development.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.AddressBook.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.AddressBook.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.build.AddressBook.props
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AddressBook.props
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AddressBook.props
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressB.06280804.Up2Date
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\refint\AddressBook.dll
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.pdb
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\AddressBook.genruntimeconfig.cache
+D:\Lab Sem-4\Asp.net_lab\AddressBook\obj\Debug\net8.0\ref\AddressBook.dll
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\appsettings.Development.json
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\appsettings.json
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\AddressBook.staticwebassets.runtime.json
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\AddressBook.staticwebassets.endpoints.json
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\AddressBook.exe
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\AddressBook.deps.json
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\AddressBook.runtimeconfig.json
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\AddressBook.dll
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\AddressBook.pdb
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\System.Data.SqlClient.dll
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+E:\Crome Download\AddressBook\AddressBook\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.csproj.AssemblyReference.cache
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.GeneratedMSBuildEditorConfig.editorconfig
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.AssemblyInfoInputs.cache
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.AssemblyInfo.cs
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.csproj.CoreCompileInputs.cache
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.MvcApplicationPartsAssemblyInfo.cache
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.RazorAssemblyInfo.cache
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.RazorAssemblyInfo.cs
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\scopedcss\bundle\AddressBook.styles.css
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\scopedcss\projectbundle\AddressBook.bundle.scp.css
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\staticwebassets.build.json
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\staticwebassets.development.json
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressB.06280804.Up2Date
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.dll
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\refint\AddressBook.dll
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.pdb
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\AddressBook.genruntimeconfig.cache
+E:\Crome Download\AddressBook\AddressBook\obj\Debug\net8.0\ref\AddressBook.dll

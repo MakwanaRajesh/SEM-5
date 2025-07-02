@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Full-screen Banner -->
+<div class="container-fluid p-0">
+    <img src="/images/banner.jpg" class="w-100" style="height: 600px; width: 800px object-fit: cover;" />
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="display-4 fw-bold">Welcome to Foodie's Heaven</h1>
+        <p class="lead">Delicious food. Fast service. Great taste.</p>
+        <a href="/Menu/Index" class="btn btn-warning btn-lg mt-3">View Menu</a>
+    </div>
+</div>
+
+<!-- Popular Categories -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Popular Categories</h2>
+    <div class="row text-center">
+        <div class="col-md-3">
+            <img src="/images/pizza.jpg" class="img-thumbnail mb-2" style="height: 150px; object-fit: cover;" />
+            <h5>Pizza</h5>
+        </div>
+        <div class="col-md-3">
+            <img src="/images/burger.jpg" class="img-thumbnail mb-2" style="height: 150px; object-fit: cover;" />
+            <h5>Burger</h5>
+        </div>
+        <div class="col-md-3">
+            <img src="/images/banner.jpg" class="img-thumbnail mb-2" style="height: 150px; object-fit: cover;" />
+            <h5>Punjabi</h5>
+        </div>
+        <div class="col-md-3">
+            <img src="/images/pizza.jpg" class="img-thumbnail mb-2" style="height: 150px; object-fit: cover;" />
+            <h5>Pasta</h5>
+        </div>
+    </div>
+</div>
+
+<!-- Call to Action -->
+<div class="text-center mt-5 mb-5">
+    <a href="/Menu/Index" class="btn btn-primary btn-lg">Explore Full Menu</a>
+</div>

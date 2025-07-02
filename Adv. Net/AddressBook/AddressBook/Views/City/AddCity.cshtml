@@ -1,0 +1,67 @@
+﻿@model AddressBook.Models.CityModel
+
+<div class="pagetitle">
+    <h1>City Add</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="City" asp-action="CityList">City</a></li>
+            <li class="breadcrumb-item active">City Add</li>
+        </ol>
+    </nav>
+</div>
+
+<form asp-controller="City" asp-action="CitySave" method="post">
+    <input type="hidden" asp-for="CityId"/>
+    <div class="col-12">
+        <label asp-for="CountryId" class="form-label fw-bold"><span class="text-danger">*</span>Country Id</label>
+        <select class="form-control col" asp-for="CountryId">
+            <option value="">Select Country</option>
+            @foreach (var country in ViewBag.CountryList)
+            {
+                <option value="@country.CountryId">@country.CountryName</option>
+            }
+        </select>
+        <span asp-validation-for="CountryId" class="text-danger"></span>
+    </div>
+    <div class="col-12">
+        <label asp-for="StateId" class="form-label fw-bold"><span class="text-danger">*</span>State Id</label>
+        <select class="form-control col" asp-for="StateId">
+            <option value="">Select State</option>
+            @foreach (var state in ViewBag.StateList)
+            {
+                <option value="@state.StateId">@state.StateName</option>
+            }
+        </select>
+        <span asp-validation-for="StateId" class="text-danger"></span>
+    </div>
+    <div class="col-12">
+        <label asp-for="CityName" class="form-label fw-bold"><span class="text-danger">*</span>City Name</label>
+        <input asp-for="CityName" type="text" class="form-control" id="CityName" placeholder="Enter City Name">
+        <span asp-validation-for="CityName" class="text-danger"></span>
+    </div>
+    <div class="col-12">
+        <label asp-for="StdCode" class="form-label fw-bold"><span class="text-danger">*</span>STD Code</label>
+        <input asp-for="StdCode" type="text" class="form-control" id="StdCode" placeholder="Enter STD Code">
+        <span asp-validation-for="StdCode" class="text-danger"></span>
+    </div>
+    <div class="col-12">
+        <label asp-for="PinCode" class="form-label fw-bold"><span class="text-danger">*</span>PinCode</label>
+        <input asp-for="PinCode" type="text" class="form-control" id="PinCode" placeholder="Enter Pin Code">
+        <span asp-validation-for="PinCode" class="text-danger"></span>
+    </div>
+    <div class="col-12 mb-3">
+        <label asp-for="UserId" class="form-label fw-bold"><span class="text-danger">*</span>User Id</label>
+        <select class="form-control col" asp-for="UserId">
+            <option value="">Select User</option>
+            @foreach (var user in ViewBag.UserList)
+            {
+                <option value="@user.UserId">@user.UserName</option>
+            }
+        </select>
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-sm btn-success">Save</button>
+        <a asp-controller="City" asp-action="CityList" type="button" class="btn btn-sm btn-primary">Cancel</a>
+    </div>
+</form>

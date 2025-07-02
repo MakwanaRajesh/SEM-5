@@ -1,0 +1,40 @@
+﻿@model List<QuizManagement.Models.QuestionLevelCount>
+
+<div class="card mt-4 p-5">
+    <div class="card-body">
+        <h5 class="card-title">📊 Question Count by Level</h5>
+
+        @if (Model == null || !Model.Any())
+        {
+            <div class="alert alert-warning text-center" role="alert">
+                No data found.
+            </div>
+        }
+        else
+        {
+            <a asp-controller="Question" asp-action="QuestionList">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Level</th>
+                            <th>Total Questions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            
+                            <tr>
+                                <td>@item.QuestionLevel</td>
+                                <td>@item.TotalQuestions</td>
+                            </tr>
+                            
+                        }
+                    </tbody>
+                </table>
+            </div>
+            </a>
+        }
+    </div>
+</div>

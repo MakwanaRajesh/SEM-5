@@ -1,0 +1,31 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Your Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">👋 Welcome, @Model.UserName!</h2>
+
+    <div class="card p-4 shadow-sm">
+        <p><strong>📧 Email:</strong> @Model.Email</p>
+
+        <div class="mt-4">
+            <a asp-controller="Order" asp-action="UserOrders" class="btn btn-outline-primary me-2">
+                📦 Your Orders
+            </a>
+
+            <a asp-controller="Order" asp-action="Basket" class="btn btn-outline-success me-2">
+                🛒 Go to Basket
+            </a>
+
+            <a asp-controller="Order" asp-action="UserOrders" class="btn btn-outline-secondary me-2">
+                📜 Order History
+            </a>
+
+            <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">
+                🚪 Logout
+            </a>
+        </div>
+    </div>
+</div>

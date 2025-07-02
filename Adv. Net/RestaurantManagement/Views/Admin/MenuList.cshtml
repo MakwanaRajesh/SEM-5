@@ -1,0 +1,42 @@
+﻿@model List<MenuItem>
+@{
+    ViewData["Title"] = "Manage Menu";
+}
+
+<div class="container mt-5">
+    <h2>All Menu Items</h2>
+    <a asp-action="AddMenuItem" class="btn btn-success mb-3">+ Add New Item</a>
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Dish</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Image</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>₹@item.Price</td>
+                    @* <td>@item.CategoryName</td> *@
+                    <td><img src="@item.ImagePath" style="height: 60px;" /></td>
+                    <td>
+                        <a asp-action="EditMenuItem" asp-route-id="@item.MenuItemId" class="btn btn-sm btn-warning">Edit</a>
+
+                        <form asp-action="DeleteMenuItem" method="post" asp-route-id="@item.MenuItemId" style="display:inline;">
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
+                        </form>
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

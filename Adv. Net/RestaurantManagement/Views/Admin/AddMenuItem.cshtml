@@ -1,0 +1,36 @@
+﻿@model MenuItem
+@{
+    ViewData["Title"] = "Add New Menu Item";
+}
+
+<div class="container mt-5">
+    <h2>Add New Dish</h2>
+    <form asp-action="AddMenuItem" method="post">
+        <div class="mb-3">
+            <label>Name</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label>Price</label>
+            <input asp-for="Price" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Image Path</label>
+            <input asp-for="ImagePath" class="form-control" placeholder="/images/pizza.jpg" />
+        </div>
+
+        <div class="mb-3">
+            <label>Category ID</label>
+            <input asp-for="CategoryId" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Item</button>
+    </form>
+</div>

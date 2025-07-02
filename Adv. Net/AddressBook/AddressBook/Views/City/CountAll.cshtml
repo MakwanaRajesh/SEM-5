@@ -1,0 +1,60 @@
+﻿
+<div class="container">
+	<div class="row">
+        <a asp-controller="City" asp-action="CityList" class="col-xxl-4 col-md-6">
+            <div class="card info-card sales-card">
+
+                <div class="card-body">
+                    <h5 class="card-title">City </h5>
+
+                    <div class="d-flex align-items-center">
+                        <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="bi bi-building-fill"></i>
+                        </div>
+                        <div class="ps-3">
+                            <h6>@ViewData["CountCity"]</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+        <a asp-controller="State" asp-action="StateList" class="col-xxl-4 col-md-6">
+            <div class="card info-card sales-card">
+
+                <div class="card-body">
+                    <h5 class="card-title">State</h5>
+
+                    <div class="d-flex align-items-center">
+                        <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="bi bi-buildings-fill"></i>
+                        </div>
+                        <div class="ps-3">
+                            <h6>@ViewData["CountState"]</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+        <a asp-controller="Country" asp-action="CountryList" class="col-xxl-4 col-md-6">
+            <div class="card info-card sales-card">
+
+                <div class="card-body">
+                    <h5 class="card-title">Country</h5>
+
+                    <div class="d-flex align-items-center">
+                        <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="bi bi-flag"></i>
+                        </div>
+                        <div class="ps-3">
+                            <h6>@ViewData["CountCountry"]</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+		
+	</div>
+</div>

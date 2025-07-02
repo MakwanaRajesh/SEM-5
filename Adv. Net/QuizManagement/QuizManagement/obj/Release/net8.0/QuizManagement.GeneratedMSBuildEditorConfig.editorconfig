@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuizManagement
+build_property.RootNamespace = QuizManagement
+build_property.ProjectDir = C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Login/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/QuestionLevel/QzLvlAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxRekx2bEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/QuestionLevel/QzLvlList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxRekx2bExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Question/QuestionAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cUXVlc3Rpb25BZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Question/QuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cUXVlc3Rpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/QuizWiseQuestion/QuizWiseQuestionAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9uQWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/QuizWiseQuestion/QuizWiseQuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9uTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Quiz/QuizAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxRdWl6QWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Quiz/QzList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxRekxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Register/RegIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Shared/LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Shared/_Layout_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Shared/_Layout_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/User/UserAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/User/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patel/OneDrive/Desktop/SEM-4/ASP .NET CORE/QuizManagement/QuizManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mlw0ejly55

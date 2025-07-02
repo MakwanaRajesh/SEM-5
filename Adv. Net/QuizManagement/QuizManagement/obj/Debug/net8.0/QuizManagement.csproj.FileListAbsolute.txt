@@ -1,0 +1,105 @@
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.csproj.AssemblyReference.cache
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.AssemblyInfoInputs.cache
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.AssemblyInfo.cs
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.csproj.CoreCompileInputs.cache
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.RazorAssemblyInfo.cache
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.RazorAssemblyInfo.cs
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.sourcelink.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\appsettings.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.staticwebassets.runtime.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.staticwebassets.endpoints.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.exe
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.deps.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.runtimeconfig.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.pdb
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\scopedcss\bundle\QuizManagement.styles.css
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\scopedcss\projectbundle\QuizManagement.bundle.scp.css
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizMana.B8CF7280.Up2Date
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\refint\QuizManagement.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.pdb
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.genruntimeconfig.cache
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\ref\QuizManagement.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\EPPlus.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\patel\OneDrive\Desktop\SEM-4\ASP .NET CORE\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\appsettings.Development.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\appsettings.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.staticwebassets.runtime.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.staticwebassets.endpoints.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.exe
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.deps.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.runtimeconfig.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\QuizManagement.pdb
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\EPPlus.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.csproj.AssemblyReference.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.AssemblyInfoInputs.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.AssemblyInfo.cs
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.csproj.CoreCompileInputs.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.RazorAssemblyInfo.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.RazorAssemblyInfo.cs
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\scopedcss\bundle\QuizManagement.styles.css
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\scopedcss\projectbundle\QuizManagement.bundle.scp.css
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.build.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.development.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizMana.B8CF7280.Up2Date
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\refint\QuizManagement.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.pdb
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\QuizManagement.genruntimeconfig.cache
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\ref\QuizManagement.dll
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Sem 5 pro\Adv. Net\QuizManagement\QuizManagement\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
