@@ -18,15 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -38,8 +34,7 @@
               "RelativeToolTip": "Student.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T04:29:10.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T04:29:10.724Z"
             },
             {
               "$type": "Document",
@@ -49,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Sem 5 pro\\Adv. Net\\Console App\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACkBAAAAAAAAAAAAwDIBAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAADkBAAAAAAAAAAAAwEMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T04:28:27.306Z",
               "EditorCaption": ""

@@ -304,4 +304,23 @@ foreach (Student stu in skippedFirstTwoAndNextThree)
 Console.WriteLine();
 Console.WriteLine("--------------------------------------------------");
 
-// 17. 
+// 41. Group Students by Sem and Age
+Console.WriteLine("41. Group Students by Sem and Age:");
+var studentsBySemAndAge = students.GroupBy(s => (s.Sem, s.Age));
+foreach (var group in studentsBySemAndAge)
+{
+    Console.WriteLine($"Sem: {group.Key.Sem}, Age: {group.Key.Age}");
+    Console.WriteLine(string.Join(Environment.NewLine,
+    group.Select(s => $"Rno: {s.RollNo}, Name: {s.Name}, CPI: {s.Cpi}")));
+    Console.WriteLine();
+}
+
+// 42. Group Students by Sem and Branch with Count
+Console.WriteLine("42. Group Students by Sem and Branch with Count:");
+var studentsBySemBranchCount = students.GroupBy(s => (s.Sem, s.Branch))
+.Select(g => (g.Key.Sem, g.Key.Branch, Count: g.Count()));
+Console.WriteLine(string.Join(Environment.NewLine,
+studentsBySemBranchCount.Select(g => $"Sem: {g.Sem}, Branch: {g.Branch}, Count: {g.Count}")));
+Console.WriteLine();
+
+
